@@ -1,0 +1,71 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "mereed/dexif",
+    "longName": "MelbDayNight2",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/daynight.png",
+                "menuIcon": true,
+                "name": "ICON",
+                "type": "png"
+            },
+            {
+                "compatibility": "2.7",
+                "file": "fonts/Monoalphabet.ttf",
+                "name": "FONT_ROBOTO_18",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:. ]",
+                "compatibility": "2.7",
+                "file": "fonts/Roboto-Medium.ttf",
+                "name": "FONT_ROBOTO_56",
+                "trackingAdjust": 2,
+                "type": "font"
+            },
+            {
+                "file": "images/NightCity.png",
+                "name": "BG_NIGHT_CITY",
+                "type": "png"
+            },
+            {
+                "file": "images/DayCity.png",
+                "name": "BG_DAY_CITY",
+                "type": "png"
+            },
+            {
+                "file": "images/bt_disconnected.png",
+                "name": "BT_DISCONNECTED",
+                "type": "png"
+            },
+            {
+                "file": "images/bt_connected.png",
+                "name": "BT_CONNECTED",
+                "type": "png"
+            },
+            {
+                "file": "images/bt_connected_white.png",
+                "name": "BT_CONNECTED_WHITE",
+                "type": "png"
+            },
+            {
+                "file": "images/bt_disconnected_white.png",
+                "name": "BT_DISCONNECTED_WHITE",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "MDN2",
+    "uuid": "622f2b4e-24c4-414b-a84b-b949bb43175a",
+    "versionCode": 1,
+    "versionLabel": "1.2",
+    "watchapp": {
+        "watchface": true
+    }
+}
